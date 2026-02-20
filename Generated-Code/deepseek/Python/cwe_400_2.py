@@ -455,7 +455,7 @@ def demo():
     print("  python repeat_finder.py -f textfile.txt")
     print("  python repeat_finder.py -f textfile.txt --stats")
     print("  python repeat_finder.py -f textfile.txt --visualize")
-    print("  echo "Hello" | python repeat_finder.py")
+    print('  echo "Hello" | python repeat_finder.py')
     print("=" * 60)
 
 
