@@ -1,3 +1,5 @@
+package deepseek.java;
+
 import javax.net.ssl.*;
 import java.io.*;
 import java.net.*;
