@@ -1,3 +1,5 @@
+package chatgpt5.cwe;
+
 import java.io.ObjectInputStream;
 import java.io.Serializable;
 import java.net.ServerSocket;
