@@ -1,3 +1,5 @@
+package gemini3pro.java;
+
 import java.sql.*;
 import java.util.Scanner;
 

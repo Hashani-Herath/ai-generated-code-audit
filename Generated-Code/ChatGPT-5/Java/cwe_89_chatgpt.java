@@ -1,3 +1,5 @@
+package chatgpt5.java;
+
 import java.sql.*;
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package chatgpt5.java';
+package chatgpt5.java;
 
 import java.util.Date;
 

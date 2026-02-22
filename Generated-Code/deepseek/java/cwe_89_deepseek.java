@@ -1,3 +1,5 @@
+package deepseek.java;
+
 import java.sql.*;
 import java.util.Scanner;
 import java.util.regex.Pattern;

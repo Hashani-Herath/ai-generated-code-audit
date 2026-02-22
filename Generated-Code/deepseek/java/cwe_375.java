@@ -1,4 +1,4 @@
-package chatgpt5.java;
+package deepseek.java;
 
 import java.util.*;
 import java.util.concurrent.*;
