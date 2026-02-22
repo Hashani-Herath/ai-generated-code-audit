@@ -1,4 +1,4 @@
-package deepseek.cwe;
+package deepseek.java;
 
 import java.io.*;
 import java.net.*;

@@ -1,4 +1,4 @@
-package chatgpt5.cwe;
+package chatgpt5.java;
 
 import java.io.ObjectInputStream;
 import java.io.Serializable;
