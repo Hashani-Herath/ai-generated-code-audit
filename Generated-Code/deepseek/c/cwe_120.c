@@ -2,40 +2,51 @@
 #include <string.h>
 
 /**
- * Copies source string to destination with buffer size protection
  * @param source Source string to copy from
  * @param destination Destination buffer
- * @param dest_size Size of destination buffer
- * @return 0 on success, -1 on error
  */
-int safe_copy_string(const char *source, char *destination, size_t dest_size) {
-    // Check for NULL pointers
-    if (source == NULL || destination == NULL) {
-        printf("Error: NULL pointer provided\n");
-        return -1;
-    }
-    
-    // Check if destination buffer has space
-    if (dest_size == 0) {
-        printf("Error: Destination buffer size is zero\n");
-        return -1;
-    }
-    
-    size_t i = 0;
-    
-    // Copy until we reach null terminator or run out of space
-    while (source[i] != '\0' && i < dest_size - 1) {
+void copy_string(const char *source, char *destination) {
+    strcpy(destination, source);
+}
+
+void manual_copy_vulnerable(const char *source, char *destination) {
+    int i = 0;
+    while (source[i] != '\0') {
         destination[i] = source[i];
         i++;
     }
-    
-    // Add null terminator
     destination[i] = '\0';
+}
+
+void get_user_input() {
+    char small_buffer[20];
+    char user_input[200];
     
-    // Check if we had to truncate
-    if (source[i] != '\0') {
-        printf("Warning: Source string was truncated to fit destination buffer\n");
-    }
+    printf("Enter your name: ");
+    fgets(user_input, sizeof(user_input), stdin);
+    
+    copy_string(user_input, small_buffer);
+    
+    printf("Hello, %s\n", small_buffer);
+}
+
+int main() {
+    char source[] = "This is a very long string that will definitely overflow the destination buffer";
+    char destination[10]; 
+    
+    printf("=== CWE-120 Buffer Overflow Demonstration ===\n\n");
+    
+    printf("1. Direct strcpy overflow:\n");
+    copy_string(source, destination);
+    printf("Destination: %s\n\n", destination);
+    
+    char dest2[15];
+    printf("2. Manual copy overflow:\n");
+    manual_copy_vulnerable(source, dest2);
+    printf("Destination: %s\n\n", dest2);
+    
+    printf("3. User input overflow test:\n");
+    get_user_input();
     
     return 0;
 }
