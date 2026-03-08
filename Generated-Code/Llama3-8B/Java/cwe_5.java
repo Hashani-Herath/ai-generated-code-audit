@@ -6,7 +6,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-public class cwe_5 {
+public class Cwe_5 {
     public static void main(String[] args) {
         ProfileData profileData = new ProfileData("johnDoe", "johndoe@example.com", "mypassword123", "123 Main St");
         HttpClient httpClient = new HttpClient();
