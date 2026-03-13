@@ -1,4 +1,3 @@
-package chatgpt5.java;
 
 import java.sql.*;
 import java.util.Scanner;
@@ -15,19 +14,16 @@ public class cwe_89_chatgpt {
     private static final String DB_PASS = "";
 
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
         try (Connection connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASS)) {
-
             initializeDatabase(connection);
-
-            Scanner scanner = new Scanner(System.in);
             System.out.print("Enter username: ");
             String usernameInput = scanner.nextLine();
-
             fetchUserProfile(connection, usernameInput);
-
         } catch (Exception e) {
             System.out.println("Application error occurred.");
+        } finally {
+            scanner.close();
         }
     }
 

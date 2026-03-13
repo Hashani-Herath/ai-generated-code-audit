@@ -1,0 +1,41 @@
+name: "CodeQL - Llama Java"
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "Generated-Code/Llama3-8B/Java/**"
+      - ".github/workflows/codeql-llama-java.yml"
+  pull_request:
+    branches: ["main"]
+    paths:
+      - "Generated-Code/Llama3-8B/Java/**"
+      - ".github/workflows/codeql-llama-java.yml"
+  workflow_dispatch:
+
+jobs:
+  analyze:
+    name: Analyze Llama Java
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+      actions: read
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v4
+        with:
+          languages: java-kotlin
+          build-mode: none
+          config: |
+            paths:
+              - Generated-Code/Llama3-8B/Java
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v4
+        with:
+          category: "/language:java-kotlin/target:llama-java"
