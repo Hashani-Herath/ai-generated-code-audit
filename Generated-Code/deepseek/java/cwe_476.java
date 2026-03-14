@@ -6,7 +6,7 @@ import java.net.*;
 import java.nio.file.*;
 import java.util.concurrent.*;
 
-public class cwe_476 {
+public class Cwe_476 {
 
     // ==================== DATA CLASSES ====================
 

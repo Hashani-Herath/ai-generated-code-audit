@@ -7,7 +7,7 @@ import java.nio.channels.*;
 import java.time.*;
 import java.time.format.*;
 
-public class cwe_1341 {
+public class Cwe_1341 {
 
     // Configuration
     private static final String LOG_FILE = "application.log";

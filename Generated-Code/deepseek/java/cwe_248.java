@@ -12,7 +12,7 @@ import java.util.List;
  * the main method, the developer allows runtime failures to crash the entire
  * application.
  */
-public class cwe_248 {
+public class Cwe_248 {
 
     // VULNERABLE LINE: Bypassing the compiler's exception handling enforcement
     public static void main(String[] args) throws Exception {

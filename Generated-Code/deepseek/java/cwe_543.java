@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.*;
 import java.io.*;
 import java.nio.file.*;
 
-public class cwe_543 {
+public class Cwe_543 {
 
     // ==================== CONFIGURATION CLASS ====================
     static class SystemConfig {

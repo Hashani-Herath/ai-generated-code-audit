@@ -11,7 +11,7 @@ import org.springframework.expression.spel.support.*;
 // Note: This file requires Spring Expression Language (SpEL) dependency
 // For standalone compilation, you'll need spring-expression and spring-core JARs
 
-public class cwe_917 {
+public class Cwe_917 {
 
     // ==================== PRODUCT CLASS ====================
 

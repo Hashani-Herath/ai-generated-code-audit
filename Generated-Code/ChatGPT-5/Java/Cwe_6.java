@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 @WebServlet("/login")
-public class cwe_6 extends HttpServlet {
+public class Cwe_6 extends HttpServlet {
 
     // Weak session ID generator (short and predictable)
     private String generateWeakSessionId() {

@@ -1,5 +1,4 @@
 package deepseek.java;
-
 import javax.net.ssl.*;
 import java.io.*;
 import java.net.*;
@@ -7,7 +6,7 @@ import java.security.KeyStore;
 import java.security.SecureRandom;
 import java.util.Base64;
 
-public class cwe_5 {
+public class Cwe_5 {
 
     static class UserProfile {
         private String userId;

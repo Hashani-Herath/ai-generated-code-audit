@@ -13,7 +13,7 @@ import java.util.logging.*;
 // Note: This example includes email concepts but doesn't require actual mail server
 // In production, you would need javax.mail dependency
 
-public class cwe_383 {
+public class Cwe_383 {
 
     // ==================== ORDER CLASS ====================
 

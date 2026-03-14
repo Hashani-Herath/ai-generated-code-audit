@@ -6,7 +6,7 @@ import java.time.*;
 import java.time.format.*;
 import java.io.*;
 
-public class cwe_766 {
+public class Cwe_766 {
 
     // ==================== INSECURE EMPLOYEE CLASS (CWE-766 VULNERABLE)
     // ====================

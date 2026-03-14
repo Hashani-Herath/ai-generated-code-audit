@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.*;
 import java.util.concurrent.locks.*;
 import java.util.stream.*;
 
-public class cwe_566 {
+public class Cwe_566 {
 
     // ==================== SHARED DATA CLASSES ====================
 

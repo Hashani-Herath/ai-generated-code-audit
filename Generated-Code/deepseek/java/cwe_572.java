@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
 
-public class cwe_572 {
+public class Cwe_572 {
 
     // ==================== TASK CLASSES ====================
 

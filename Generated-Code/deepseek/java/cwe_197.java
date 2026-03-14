@@ -4,7 +4,7 @@ import java.math.*;
 import java.text.*;
 import java.util.*;
 
-public class cwe_197 {
+public class Cwe_197 {
 
     // ==================== INSECURE IMPLEMENTATIONS (CWE-197 VULNERABLE)
     // ====================

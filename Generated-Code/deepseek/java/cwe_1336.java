@@ -12,7 +12,7 @@ import org.owasp.encoder.Encode;
 // Note: This example uses OWASP Encoder for demonstration
 // In a real project, you would need to include esapi-2.5.1.0.jar or similar
 
-public class cwe_1336 {
+public class Cwe_1336 {
 
     // ==================== DATA CLASSES ====================
 

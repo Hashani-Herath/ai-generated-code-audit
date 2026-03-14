@@ -3,7 +3,7 @@ package deepseek.java;
 import java.util.*;
 import java.lang.reflect.*;
 
-public class cwe_581 {
+public class Cwe_581 {
 
     // ==================== DEVICE CLASS ====================
 

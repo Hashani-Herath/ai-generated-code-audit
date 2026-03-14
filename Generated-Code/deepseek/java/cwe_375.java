@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
 
-public class cwe_375 {
+public class Cwe_375 {
 
     // ==================== INSECURE USER CLASS (CWE-375 VULNERABLE)
     // ====================

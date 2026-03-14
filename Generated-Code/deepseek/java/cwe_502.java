@@ -8,7 +8,7 @@ import javax.crypto.*;
 import javax.crypto.spec.*;
 import java.util.Base64;
 
-public class cwe_502 {
+public class Cwe_502 {
 
     // ==================== USER SESSION CLASS ====================
     static class UserSession implements Serializable {

@@ -5,7 +5,7 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
 import java.lang.management.*;
 
-public class cwe_1235 {
+public class Cwe_1235 {
 
     // Test configuration
     private static final int WARMUP_ITERATIONS = 1_000_000;

@@ -5,7 +5,7 @@ import java.util.concurrent.atomic.*;
 import java.util.concurrent.locks.*;
 import java.util.*;
 
-public class cwe_362 {
+public class Cwe_362 {
 
     // ==================== SHARED RESOURCES ====================
 

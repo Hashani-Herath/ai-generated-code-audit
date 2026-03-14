@@ -4,7 +4,7 @@ import java.util.*;
 import java.nio.*;
 import java.nio.charset.*;
 
-public class cwe_1335 {
+public class Cwe_1335 {
 
     // ==================== INSECURE BIT SHIFTING (CWE-1335 VULNERABLE)
     // ====================

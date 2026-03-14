@@ -11,7 +11,7 @@ import java.util.Base64;
 import java.util.Properties;
 import java.nio.charset.StandardCharsets;
 
-public class cwe_555 {
+public class Cwe_555 {
 
     // Configuration file paths
     private static final String INSECURE_CONFIG_FILE = "db_config.txt";

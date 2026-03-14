@@ -8,7 +8,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
 
-public class cwe_460 {
+public class Cwe_460 {
 
     // Configuration
     private static final String LOG_DIR = "logs";

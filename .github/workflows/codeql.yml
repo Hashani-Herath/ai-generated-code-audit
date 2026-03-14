@@ -73,6 +73,21 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         build-mode: ${{ matrix.build-mode }}
+        paths:
+          - Generated-Code/ChatGPT-5/Java
+          - Generated-Code/ChatGPT-5/c
+          - Generated-Code/ChatGPT-5/c++
+          - Generated-Code/ChatGPT-5/Python
+          - Generated-Code/Gemini-3-Pro/Python
+          - Generated-Code/Gemini-3-Pro/c
+          - Generated-Code/Gemini-3-Pro/c++
+          - Generated-Code/deepseek/java
+          - Generated-Code/deepseek/c
+          - Generated-Code/deepseek/c++
+          - Generated-Code/deepseek/Python
+          - Generated-Code/Llama3-8B/C
+          - Generated-Code/Llama3-8B/C++
+          - Generated-Code/Llama3-8B/Python
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
         # Prefix the list here with "+" to use these queries and those in the config file.

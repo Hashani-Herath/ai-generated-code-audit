@@ -10,7 +10,7 @@ import java.security.cert.Certificate;
 import java.net.URL;
 import java.net.URLClassLoader;
 
-public class cwe_470 {
+public class Cwe_470 {
 
     // Configuration
     private static final String CLASS_LIST_FILE = "allowed_classes.txt";

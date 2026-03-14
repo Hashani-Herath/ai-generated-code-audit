@@ -6,7 +6,7 @@ import javax.script.*;
 import java.lang.reflect.*;
 import java.math.*;
 
-public class cwe_95 {
+public class Cwe_95 {
 
     // ==================== INSECURE EVALUATION (CWE-95 VULNERABLE)
     // ====================

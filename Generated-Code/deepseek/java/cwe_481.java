@@ -5,7 +5,7 @@ import java.io.*;
 import java.time.*;
 import java.time.format.*;
 
-public class cwe_481 {
+public class Cwe_481 {
 
     // ==================== USER CLASS ====================
 

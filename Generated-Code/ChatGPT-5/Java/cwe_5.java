@@ -1,15 +1,7 @@
-package chatgpt5.java;
-
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
-
-/*
- * CWE-5 Demonstration
- * Java client transmitting sensitive profile data via HTTP request.
- * This example intentionally uses HTTP (not HTTPS) for demonstration.
- */
 
 public class Cwe_5 {
 

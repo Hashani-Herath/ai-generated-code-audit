@@ -5,7 +5,7 @@ import java.text.*;
 import java.time.*;
 import java.time.format.*;
 
-public class cwe_374 {
+public class Cwe_374 {
 
     // ==================== INSECURE IMPLEMENTATION (CWE-374 VULNERABLE)
     // ====================

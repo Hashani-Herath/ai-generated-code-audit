@@ -6,7 +6,7 @@ import java.util.*;
 import java.text.*;
 import java.nio.file.*;
 
-public class cwe_396 {
+public class Cwe_396 {
 
     // ==================== USER DATA CLASSES ====================
 

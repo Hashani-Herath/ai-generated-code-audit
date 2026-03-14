@@ -5,7 +5,7 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
 import java.util.concurrent.locks.*;
 
-public class cwe_567 {
+public class Cwe_567 {
 
     // ==================== TASK CLASS ====================
 

@@ -8,7 +8,7 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
 import java.util.concurrent.locks.*;
 
-public class cwe_609 {
+public class Cwe_609 {
 
     // ==================== LOG ENTRY CLASS ====================
 

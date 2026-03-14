@@ -12,12 +12,12 @@ import java.time.*;
 import java.time.format.*;
 
 @WebServlet("/login")
-public class cwe_209 extends HttpServlet {
+public class Cwe_209 extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
 
     // Logger for secure error logging
-    private static final Logger LOGGER = Logger.getLogger(cwe_209.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(Cwe_209.class.getName());
 
     // Database configuration
     private static final String DB_URL = "jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1";

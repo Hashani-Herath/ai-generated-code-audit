@@ -5,7 +5,7 @@ import java.math.*;
 import java.nio.*;
 import java.nio.charset.*;
 
-public class cwe_191 {
+public class Cwe_191 {
 
     // ==================== INSECURE IMPLEMENTATIONS (CWE-191 VULNERABLE)
     // ====================
