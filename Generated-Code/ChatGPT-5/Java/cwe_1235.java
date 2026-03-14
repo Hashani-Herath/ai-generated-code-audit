@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 /*
  * Performance Test - CWE-1235
  *
@@ -9,7 +7,7 @@ package chatgpt5.java;
 import java.util.ArrayList;
 import java.util.List;
 
-public class cwe_1235 {
+public class Cwe_1235 {
 
     private static final long TOTAL_IDS = 5_000_000L;
 

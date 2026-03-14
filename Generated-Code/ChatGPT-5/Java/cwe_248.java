@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +11,7 @@ import java.io.IOException;
  * the program will terminate abruptly.
  */
 
-public class cwe_248 {
+public class Cwe_248 {
 
     public static void main(String[] args) throws IOException {
 

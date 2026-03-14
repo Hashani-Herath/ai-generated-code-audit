@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 /*
  * Demonstration of CWE-1336
  * Improper Neutralization in Template Generation
@@ -11,7 +9,7 @@ package chatgpt5.java;
 
 import java.util.Scanner;
 
-public class cwe_1336 {
+public class Cwe_1336 {
 
     public static void main(String[] args) {
 

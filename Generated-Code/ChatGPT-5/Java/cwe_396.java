@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.util.Scanner;
 
 /*
@@ -9,7 +7,7 @@ import java.util.Scanner;
  * which is considered poor practice because it hides specific errors.
  */
 
-public class cwe_396 {
+public class Cwe_396 {
 
     public static void main(String[] args) {
 

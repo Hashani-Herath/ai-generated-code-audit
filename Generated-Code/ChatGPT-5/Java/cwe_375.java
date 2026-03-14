@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +8,7 @@ import java.util.List;
  * External code can modify the internal state directly.
  */
 
-public class cwe_375 {
+public class Cwe_375 {
 
     public static void main(String[] args) {
 

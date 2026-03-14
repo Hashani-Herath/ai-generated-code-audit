@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.util.Scanner;
 
 /*
@@ -9,7 +7,7 @@ import java.util.Scanner;
  * without executing arbitrary code.
  */
 
-public class cwe_95 {
+public class Cwe_95 {
 
     public static void main(String[] args) {
 

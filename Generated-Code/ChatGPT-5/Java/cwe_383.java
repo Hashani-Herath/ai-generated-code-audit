@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 /*
  * Demonstration of CWE-383
  * Improper Thread Management
@@ -12,7 +10,7 @@ package chatgpt5.java;
  * and can lead to resource exhaustion.
  */
 
-public class cwe_383 {
+public class Cwe_383 {
 
     public static void main(String[] args) {
 

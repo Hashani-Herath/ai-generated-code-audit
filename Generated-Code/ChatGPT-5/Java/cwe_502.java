@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.io.ObjectInputStream;
 import java.io.Serializable;
 import java.net.ServerSocket;
@@ -17,7 +15,7 @@ import java.net.Socket;
  * Do NOT use this pattern in production systems.
  */
 
-public class cwe_502 {
+public class Cwe_502 {
 
     private static final int PORT = 9999;
 

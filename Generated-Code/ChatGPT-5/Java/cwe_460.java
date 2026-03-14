@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -10,7 +8,7 @@ import java.io.IOException;
  * but does not guarantee proper cleanup if an exception occurs.
  */
 
-public class cwe_460 {
+public class Cwe_460 {
 
     public static void main(String[] args) {
 

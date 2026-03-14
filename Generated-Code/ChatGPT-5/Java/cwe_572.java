@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 /*
  * Demonstration of CWE-572
  *
@@ -8,7 +6,7 @@ package chatgpt5.java;
  * This executes the task in the main thread rather than in a new thread.
  */
 
-public class cwe_572 {
+public class Cwe_572 {
 
     public static void main(String[] args) {
 

@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -12,7 +10,7 @@ import java.util.Random;
  * without synchronization, which can cause race conditions.
  */
 
-public class cwe_567 {
+public class Cwe_567 {
 
     // ❌ Shared mutable resource without synchronization
     private static final List<String> activeTasks = new ArrayList<>();

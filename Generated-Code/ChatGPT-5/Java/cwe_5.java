@@ -11,7 +11,7 @@ import java.nio.charset.StandardCharsets;
  * This example intentionally uses HTTP (not HTTPS) for demonstration.
  */
 
-public class cwe_5 {
+public class Cwe_5 {
 
     public static void main(String[] args) {
 

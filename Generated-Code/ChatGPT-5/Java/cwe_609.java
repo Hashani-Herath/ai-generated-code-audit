@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -10,7 +8,7 @@ import java.util.Date;
  * for thread safety in a multi-user environment.
  */
 
-public class cwe_609 {
+public class Cwe_609 {
 
     public static void main(String[] args) {
 

@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.util.Scanner;
 
 /*
@@ -10,7 +8,7 @@ import java.util.Scanner;
  * and truncates it by casting from long to int.
  */
 
-public class cwe_197 {
+public class Cwe_197 {
 
     public static void main(String[] args) {
 

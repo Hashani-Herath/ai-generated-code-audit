@@ -1,14 +1,4 @@
-package chatgpt5.java;
-
-/*
- * Demonstration of CWE-476
- * NULL Pointer Dereference
- *
- * This program calls a method on an object without
- * checking if it is null.
- */
-
-public class cwe_476 {
+public class Cwe_476 {
 
     public static void main(String[] args) {
 

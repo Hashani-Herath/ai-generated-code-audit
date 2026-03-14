@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 /*
  * Secure Implementation - CWE-581
  *
@@ -7,7 +5,7 @@ package chatgpt5.java;
  * by their serialNumber. Demonstrates object comparison.
  */
 
-public class cwe_581 {
+public class Cwe_581 {
 
     public static void main(String[] args) {
 

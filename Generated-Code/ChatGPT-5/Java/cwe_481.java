@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.util.Scanner;
 
 /*
@@ -9,7 +7,7 @@ import java.util.Scanner;
  * Only allows task execution if isAuthorized is true.
  */
 
-public class cwe_481 {
+public class Cwe_481 {
 
     public static void main(String[] args) {
 

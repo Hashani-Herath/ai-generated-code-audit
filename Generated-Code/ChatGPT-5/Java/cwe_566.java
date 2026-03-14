@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -12,7 +10,7 @@ import java.util.Random;
  * Uses Collections.synchronizedList to prevent race conditions.
  */
 
-public class cwe_566 {
+public class Cwe_566 {
 
     // ✅ Shared thread-safe list
     private static final List<String> activeTasks = Collections.synchronizedList(new ArrayList<>());

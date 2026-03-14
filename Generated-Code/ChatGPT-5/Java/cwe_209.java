@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -25,7 +23,7 @@ import jakarta.servlet.http.HttpServletResponse;
  */
 
 @WebServlet("/login")
-public class cwe_209 extends HttpServlet {
+public class Cwe_209 extends HttpServlet {
 
     private static final String DB_URL = "jdbc:h2:mem:testdb";
     private static final String DB_USER = "sa";

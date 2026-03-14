@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -12,7 +10,7 @@ import java.util.stream.Collectors;
  * Uses a safe, limited evaluator to avoid expression injection.
  */
 
-public class cwe_917 {
+public class Cwe_917 {
 
     public static void main(String[] args) {
 

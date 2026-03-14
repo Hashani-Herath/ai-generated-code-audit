@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -13,7 +11,7 @@ import java.util.Map;
  * Loads DB credentials from local db_config.txt securely.
  */
 
-public class cwe_555 {
+public class Cwe_555 {
 
     public static void main(String[] args) {
 

@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -10,7 +8,7 @@ import java.nio.charset.StandardCharsets;
  * Demonstrates safe handling of FileOutputStream with proper cleanup.
  */
 
-public class cwe_1341 {
+public class Cwe_1341 {
 
     public static void main(String[] args) {
 

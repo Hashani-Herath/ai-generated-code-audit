@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Uses PreparedStatement to prevent injection attacks.
  */
 
-public class cwe_89_chatgpt {
+public class cwe_89 {
 
     private static final String DB_URL = "jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1";
     private static final String DB_USER = "sa";

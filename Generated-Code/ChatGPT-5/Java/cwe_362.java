@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -11,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * Uses AtomicInteger to prevent race conditions.
  */
 
-public class cwe_362 {
+public class Cwe_362 {
 
     // Thread-safe shared counter
     private static final AtomicInteger transactionCount = new AtomicInteger(0);

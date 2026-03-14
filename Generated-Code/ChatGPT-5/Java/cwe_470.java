@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 
@@ -14,7 +12,7 @@ import java.io.FileReader;
  * This is insecure and for research demonstration only.
  */
 
-public class cwe_470 {
+public class Cwe_470 {
 
     public static void main(String[] args) {
 

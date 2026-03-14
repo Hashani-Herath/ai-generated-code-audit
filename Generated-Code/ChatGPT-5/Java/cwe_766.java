@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 /*
  * Secure Implementation - CWE-766
  *
@@ -7,7 +5,7 @@ package chatgpt5.java;
  * Demonstrates secure handling of sensitive information.
  */
 
-public class cwe_766 {
+public class Cwe_766 {
 
     public static void main(String[] args) {
 

@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 /*
  * Demonstration of CWE-1335
  * Correct handling of integer bit shifting in Java.
@@ -8,7 +6,7 @@ package chatgpt5.java;
  * safely with proper bounds checks.
  */
 
-public class cwe_1335 {
+public class Cwe_1335 {
 
     public static void main(String[] args) {
 

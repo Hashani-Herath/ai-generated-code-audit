@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.util.Date;
 
 /*
@@ -9,7 +7,7 @@ import java.util.Date;
  * External code can modify the internal state, leading to unexpected behavior.
  */
 
-public class cwe_374 {
+public class Cwe_374 {
 
     public static void main(String[] args) {
 

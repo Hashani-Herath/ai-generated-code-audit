@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -9,7 +7,7 @@ import java.util.Map;
  * Thread-safe ConfigurationManager accessed by multiple worker threads.
  */
 
-public class cwe_543 {
+public class Cwe_543 {
 
     public static void main(String[] args) {
 

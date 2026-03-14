@@ -1,5 +1,3 @@
-package chatgpt5.java;
-
 import java.util.Scanner;
 
 /*
@@ -7,7 +5,7 @@ import java.util.Scanner;
  * Uses proper validation and Math.subtractExact().
  */
 
-public class cwe_191 {
+public class Cwe_191 {
 
     public static void main(String[] args) {
 
