@@ -28,8 +28,8 @@ jobs:
       - name: Run SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v5
         env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+          SONAR_TOKEN: c0bf7495c8f09e2e186da495b629438cbb5968d5
+          SONAR_HOST_URL: https://sonarcloud.io
         with:
           args: >
             -Dsonar.projectKey=${{ vars.SONAR_PROJECT_KEY || 'ai-generated-code-audit' }}
@@ -42,5 +42,5 @@ jobs:
         uses: SonarSource/sonarqube-quality-gate-action@v1.2.0
         timeout-minutes: 10
         env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+          SONAR_TOKEN: c0bf7495c8f09e2e186da495b629438cbb5968d5
+          SONAR_HOST_URL: https://sonarcloud.io
