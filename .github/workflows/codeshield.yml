@@ -14,8 +14,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Install CodeShield
-        run: pip install codeshield
-
-      - name: Run Security Scan
-        run: codeshield scan .
+      # Replaces pip install and the manual CLI command
+      - name: Run CodeShield Security Scan
+        uses: Lydiamorgan85/codeshield-ai@main
